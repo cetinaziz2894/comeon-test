@@ -6,7 +6,7 @@ export default function Header() {
         <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         ComeOn Test
         </p>
         <a
           className="App-link"
@@ -14,7 +14,7 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          comeon!
         </a>
       </header>
     )
