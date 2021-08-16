@@ -1,21 +1,10 @@
 import React from 'react'
-import logo from '../logo.svg';
+import { Container, Image } from 'semantic-ui-react';
 
 export default function Header() {
     return (
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         ComeOn Test
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          comeon!
-        </a>
-      </header>
+        <Container fluid>
+            <Image src={process.env.PUBLIC_URL +"images/logo.svg"} size={'big'} className="header-image"/>
+        </Container>
     )
 }
