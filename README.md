@@ -3,14 +3,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## First Step
+Open terminal in the project directory:
 ### `npm install`
 
 ## Second Step
+Open terminal in the project directory:
 ### `cd mock`
 ### `npm run mock-start`
-### `npm start`
 
 ## Third Step
+Open new terminal in the project directory:
 ### `npm start`
 
 
